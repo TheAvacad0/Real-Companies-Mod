@@ -4,6 +4,8 @@ using Harmony;
 using UnityEngine;
 using System.Reflection;
 
+// Changes the names of the AI rival studios
+
 namespace RealCompanies
 {
     [HarmonyPatch(typeof(AIStudio), "GetNameText")]
